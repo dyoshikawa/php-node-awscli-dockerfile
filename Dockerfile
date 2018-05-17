@@ -21,10 +21,7 @@ RUN composer global require hirak/prestissimo
 
 # make node environment
 # install packages
-RUN apk add --no-cache yarn
-
-# install node_module aglio
-RUN yarn add aglio
+RUN apk add --no-cache nodejs-npm
 
 # install pip
 RUN apk add py2-pip
