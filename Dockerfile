@@ -3,7 +3,7 @@ MAINTAINER dyoshikawa
 
 # make PHP environment
 # install packages
-RUN apk add -U --no-cache bash curl-dev libxml2-dev postgresql-dev
+RUN apk add -U --no-cache bash git curl-dev libxml2-dev postgresql-dev
 
 # install PHP extensions
 RUN docker-php-source extract
