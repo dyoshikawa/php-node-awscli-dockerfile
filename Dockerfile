@@ -22,10 +22,3 @@ RUN composer global require hirak/prestissimo
 # make node environment
 # install packages
 RUN apk add --no-cache nodejs-npm
-
-# install pip
-RUN apk add py2-pip
-RUN pip install --upgrade pip
-
-# install awscli
-RUN pip install awscli
